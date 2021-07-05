@@ -70,6 +70,9 @@ const Operator = new Schema(
     centro_formacion: {
       type: String,
     },
+    tripadvisor: {
+      type: String,
+    },
   },
   { timestamps: true, versionKey: false }
 );
